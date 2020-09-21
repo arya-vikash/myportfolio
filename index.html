@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>MyPortfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto" >
+                    <li class="nav-items"><a class="nav-link active" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-items"><a class="nav-link" href="#aboutme"><span class="fa fa-info fa-lg"></span> AboutMe</a></li>
+                    <li class="nav-items"><a class="nav-link" href="#"><span class="fa fa-folder fa-lg"></span> Projects</a></li>
+                    <li class="nav-items"><a class="nav-link" href="#footer"><span class="fa fa-address-card fa-lg"></span> ContactMe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 h-100" src="./image/4.jpg" alt="zero slide">
+                    <div class="carousel-caption">
+                        <blockquote class="blockquote">
+                            <p>Hey,there...Welcome To My Portfolio.<br>I am Vikash Arya</p>
+                                
+
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-100" src="./image/keyboard.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <blockquote class="blockquote">
+                            <p>&ldquo;If you can't explain it simply, you don't understand it well enaugh.&rdquo;</p>
+                                <footer class="blockquote-footer">Albert Einstein</footer>
+
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-100" src="./image/painting.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <blockquote class="blockquote">
+                            <p>&ldquo;Digital design is like painting, except the paint never dries.&rdquo;</p>
+                            <footer class="blockquote-footer">Neville Brody</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-100" src="./image/laptop.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <blockquote class="blockquote">
+                            <p>&ldquo;Websites promote you 24/7: No employee will do that.&rdquo;</p>
+                            <footer class="blockquote-footer">Paul Cookson</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row row-content mt-10" id="aboutme">
+            <div class=" col-12 col-md-4 align-self-center ">
+                <img class="d-flex img-thumbnail mr-3 align-self-center rounded-circle" id="aboutmeimage" src="image/headerimage.jpg" alt="header-image">
+            </div>
+            <div class="col-12 col-md ">
+                <h2 class="mt-0.5">About me</h2>
+                <p><b>Hello..</b>,I am Vikash Arya currently a student and a growing web developer.I am pursuing my BTech. from 
+                    <a href="https://www.srmist.edu.in/">SRM</a> Institute of Science and Technology ,KTR campus in Computer Science.Currently i am learning newer skills to make myself
+                     better in this field and i aspire to be great web developer.</p>
+                <p>I did my high schooling from <a href="http://bpssikar.org/index1.aspx"> BPS,Sikar</a> (Raj.) a CBSE affiliated,
+                     with 9.4 CGPA in grade 10 and 81.8% in grade 12. </p>
+                <p>My skills include Python,C++,C,Data Structures,JavaScript,HTML,CSS,ReactJS,NodeJs,<br>MongoDB,Bootstrap 4,Machine Learning.<br>And hopefully more will be added with time.</p>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12 info">
+                <p ></p>***Click on respective names to see inlarged image***</p>
+            </div>
+            <div class="col col-md-12 ">
+                <div class="carousel slide " id="mycarousel" data-ride="carousel">
+                    <div class="carousel-inner align-self-center" role="listbox" >
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/react.PNG" alt="certificate">
+                                        <div class="card-body ">
+                                            <div class="row justify-content-center">
+                                                <a id="reactButton" href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> ReactJS</i></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/bootstrap4.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="bootstrap4Button"   href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Bootstrap 4</i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-none d-md-block">
+                                    <div class="card ">
+                                        <img class="card-img-top w-100 fluid" src="image/js.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="jsButton"  href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> JavaScript</i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/webdesignspz.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="webdesignspzButton"  href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Web Design</i></a>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/pythonspz.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="pythonspzButton" href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Python</i></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-none d-md-block">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/Responsivedesign.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="responsiveButton"  href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Responsive design</i></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/ml.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="mlButton" href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Machine Learning</i></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/ehack.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="ehackButton" href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Ethical Hacking</i></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-none d-md-block">
+                                    <div class="card">
+                                        <img class="card-img-top w-100 fluid" src="image/pythonds.PNG" alt="certificate">
+                                        <div class="card-body">
+                                            <div class="row justify-content-center">
+                                                <a id="pythondsButton"href="#mycarousel"><i class="fa fa-angle-double-up fa-lg"> Python DS</i></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                    </ol>
+                    <a class="carousel-control-prev" role="button" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next" role="button" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                </div>
+            </div>
+            <div class="certificatemodals">
+                <div id="reactModal" class="modal fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">ReactJs Certificate</h4>
+                                <button type="button" id="dismissreactModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/react.PNG" alt="react-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bootstrap4Modal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Bootstrap4 Certificate</h4>
+                                <button type="button" id="dismissbootstrap4Modal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/bootstrap4.PNG" alt="bootstrap4-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="jsModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">JavaScript Certificate</h4>
+                                <button type="button" id="dismissjsModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/js.PNG" alt="js-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="webdesignspzModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Web design for everybody specilization Certificate</h4>
+                                <button type="button" id="dismisswebdesignspzModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/webdesignspz.PNG" alt="webdesign-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pythonspzModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Python Certificate(spz.)</h4>
+                                <button type="button" id="dismisspythonspzModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/pythonspz.PNG" alt="pythonspz-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="responsiveModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Responsive design Certificate</h4>
+                                <button type="button" id="dismissresponsiveModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/Responsivedesign.PNG" alt="responsive-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mlModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Meachine Learning Certificate</h4>
+                                <button type="button" id="dismissmlModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/ml.PNG" alt="Ml-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ehackModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Ethical Hacking Certificate</h4>
+                                <button type="button" id="dismissehackModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/ehack.PNG" alt="ehack-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pythondsModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg" role="content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Python Data Structures Certificate</h4>
+                                <button type="button" id="dismisspythondsModal" class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="d-flex fluid ml-0 align-self-center" src="./image/pythonds.PNG" alt="pythonds-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <hr>
+        
+        <div class="row row-content">
+            <div class="col-12" id="myworksheading">
+                <h2>My Works</h2>
+            </div>
+            <div class="col-12 col-md-4">
+                
+            </div>
+        </div>
+    </div>
+  
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <h5>Created by Vikash Arya</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>Feel Free To Contact</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <div class="text-align-center">
+                        <a class="btn btn-social-icon" href="#"><i class="fa fa-envelope fa-lg" style="font-size:35px"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-github" href="#"><i class="fa fa-github fa-lg"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>©Copyright 2020 Vikash Arya</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#reactButton").click(function(){
+                $("#reactModal").modal('show');
+            });
+            $("#dismissreactModal").click(function(){
+                $("#reactModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#bootstrap4Button").click(function(){
+                $("#bootstrap4Modal").modal('show');
+            });
+            $("#dismissbootstrap4Modal").click(function(){
+                $("#bootstrap4Modal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#jsButton").click(function(){
+                $("#jsModal").modal('show');
+            });
+            $("#dismissjsModal").click(function(){
+                $("#jsModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#webdesignspzButton").click(function(){
+                $("#webdesignspzModal").modal('show');
+            });
+            $("#dismisswebdesignspzModal").click(function(){
+                $("#webdesignspzModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#pythonspzButton").click(function(){
+                $("#pythonspzModal").modal('show');
+            });
+            $("#dismisspythonspzModal").click(function(){
+                $("#pythonspzModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#responsiveButton").click(function(){
+                $("#responsiveModal").modal('show');
+            });
+            $("#dismissresponsiveModal").click(function(){
+                $("#responsiveModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#mlButton").click(function(){
+                $("#mlModal").modal('show');
+            });
+            $("#dismissmlModal").click(function(){
+                $("#mlModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#ehackButton").click(function(){
+                $("#ehackModal").modal('show');
+            });
+            $("#dismissehackModal").click(function(){
+                $("#ehackModal").modal('hide');
+            });
+        });
+        $(document).ready(function(){
+            $("#pythondsButton").click(function(){
+                $("#pythondsModal").modal('show');
+            });
+            $("#dismisspythondsModal").click(function(){
+                $("#pythondsModal").modal('hide');
+            });
+        });
+    </script>
+</body>
+</html>
