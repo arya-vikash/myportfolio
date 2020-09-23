@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(17, 17, 17);
 }
@@ -77,7 +78,8 @@ h2{
     height: 300px;
     background-color: #c29844;
     margin-bottom: 20px;
-    opacity: 0.8;
+    opacity: 0.7;
+    transition: 0.5s ease;
     
 }
 #mycarousel .card:hover{
@@ -133,9 +135,48 @@ h2{
     color: rgb(59, 59, 59);
     background-color: #c29844;
 }
-
+.wrap-projects{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+    border: dashed #3a3428;
+}
+.projectimage{
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s ease;
+    opacity: 0;
+    background-color: #c29844;
+}
+.wrap-projects:hover .overlay{
+    opacity: 1;
+    width: 100%;
+}
+.projectButton{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+.projectTitle{
+    left:2%;
+    top: 5%;
+    position:absolute;
+    font-size: 25px;
+}
 .footer{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(10, 10, 10);
     color:#c29844 ;
     padding-top: 20px;
 }
